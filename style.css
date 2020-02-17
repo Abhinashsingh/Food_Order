@@ -1,0 +1,313 @@
+*
+{
+	padding:0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body
+{
+
+	width:;
+	margin:auto;
+	overflow: auto;
+}
+nav
+{
+	background-color:#3CAEA3;
+	display:flex;
+	align-items: center;
+	min-height: 8vh;
+	height: 10vh;
+
+	
+	
+}
+
+.logo
+{
+	
+	color: white;
+	font-size: 20px;
+	font-weight: 00;
+	margin: 10px;
+	cursor: pointer;
+
+}
+
+.navlink
+{
+	
+	display: flex;
+	flex:1;
+	justify-content: space-around;
+	list-style: none;
+	text-decoration: none;
+	
+	
+}
+.navlinks
+{
+	display: flex;
+	text-decoration: none;
+	background-color: grey;
+	padding: 8px 12px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size:14px;
+	border-radius: 11px;
+	box-shadow: 6px 6px 29px -5px rgba(0,0,0,0.75);
+
+}
+.navlinks:hover
+{
+	background-color: white;
+	color:grey;
+
+}
+.cart
+{
+	cursor: pointer; 
+	margin-right: 6%;
+  
+}
+.header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(coverimage.jpg);
+    min-height: 60vh;
+    
+}
+.what
+{  
+	color:white;
+	padding-top:7%;
+	font-size: 30px;
+	cursor: default;
+	align-items: center;
+	width:25%;
+	margin-left:32%;
+	 
+	
+
+}
+.srchbr
+{
+   
+	display: flex;
+	margin-top: 3vh;
+    align-items: center;
+    min-height: 10vh;
+    position: absolute;
+    left:30%;
+    width:440px;
+    border-radius: 11px;
+    background-color:#3CAEA3;
+		
+	
+}
+.search-btn
+{
+	color:#2f3640;
+	float:right;
+	width: 80px;
+	height: 50px;
+	border-radius: 11px;
+	background:#3CAEA3 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	cursor:pointer;
+	margin-right: 5px;
+}
+.search-btn:Hover
+{
+	background:#2f3640;
+	color:#3CAEA3;
+	 box-shadow: 6px 6px 29px -5px rgba(0,0,0,0.75);
+}
+.search-text
+{
+	border:none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 2vh;
+	color: white;
+	font-size: 25px;
+	line-height: 40px;
+	width:390px;
+	border:none;
+	background: none;
+	outline: none;
+	transition: 0.4s;
+}
+::placeholder
+{
+	color:silver;
+	opacity:3;
+
+}
+.img
+{
+	height:100px;
+	margin-top:2%;
+	margin-left:2%;
+}
+.restaurant1
+{
+	min-width: 42vh;
+	min-height: 25vh;
+	width:21%;
+	margin-left:3%;
+	margin-top: 2%;
+	border: 3px solid #ccc;
+	background: #eee;
+	border-radius: 11px;
+
+	 
+
+}
+.Item-Table
+{
+	margin-top: 1%;
+	display: flex;
+	margin:auto;
+
+}
+.Images
+{
+	display: flex;
+}
+h3
+{
+margin-left: 10%;
+
+
+}	
+
+.bt
+{
+    min-width: 37vh;
+    min-height:6vh;
+    margin-left: 8%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	color: #fff;
+	transition: 0.3s;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid white;
+    background-color: #3498db;
+    font-family: "monsterrat" , sans-serif;
+    text-transform: uppercase;
+    opacity: 0.6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 11px;
+    box-shadow: 6px 6px 29px -5px rgba(0,0,0,0.75);
+
+}
+.bt:hover
+{
+  opacity: 2;
+  background-color: white;
+  border: 3px solid #3498db;
+  color:#3498db; 
+}
+
+
+.innertext
+{
+	margin-left: 5%;
+	min-width: 25vh; 
+	float: left;
+	justify-content: center;
+	display: flex;
+	text-align: justify;
+	margin-right:5%;
+}
+.address1
+{
+	border: 0px solid #ccc;
+	border-radius: 11px;
+	max-width: 28vh;
+	margin-left: 7%;
+	margin-right: 2%;
+	margin-top: 2%;
+	background-color: #3CAEA3;
+	text-align: center;
+
+}			
+.popuplogin
+{
+	background: rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	position: fixed;
+	display:none;
+	align-items: center;
+	top:0;
+	justify-content: center;
+	text-align:center;
+	overflow-y: scroll;
+
+ transition: all .5s ease-in-out;
+
+}
+.popuplogincontent
+{
+	height: 250px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 11px;
+	justify-content: center;
+	border: 3px grey solid;
+
+}
+.Loginbutton
+{
+	text-decoration: none;
+	background-color: white;
+	padding: 8px 12px;
+	color: grey;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size:14px;
+	border-radius: 11px;
+	box-shadow: 6px 6px 29px -5px rgba(0,0,0,0.75);
+
+
+}
+.Loginbutton:hover
+{
+	background-color: grey;
+	color: white;
+}
+
+.user,.pass
+{
+	padding: 8px;
+	margin:11px auto;
+	display: block;
+	width: 50%;
+	margin-bottom: 4%;
+	border:1px solid grey;
+	
+
+
+}
+.xicon
+{
+	position: absolute;
+	top:32%;
+	left: 67%;
+	cursor: pointer;
+	font-size: 40px;
+    width: 14px; 
+}
+
+
